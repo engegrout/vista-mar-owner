@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* body { */
+/*   font-family: Arial, sans-serif; */
+/* } */
+/**/
+/* .main-heading { */
+/*   color: #333; */
+/*   text-align: center; */
+/* } */
+/**/
+/* .main-text { */
+/*   line-height: 1.5; */
+/* } */
+/**/
+/* .footer-text { */
+/*   font-size: 0.8em; */
+/*   color: #666; */
+/*   text-align: center; */
+/* } */
