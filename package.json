@@ -1,0 +1,28 @@
+{
+  "name": "vistamar-owner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm tailwind:watch & pnpm serve",
+    "tailwind:watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "tailwind": "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "serve": "live-server ./src",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check ./src"
+  },
+  "keywords": [],
+  "author": "Hudson Bruno",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.4"
+  },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  }
+}
